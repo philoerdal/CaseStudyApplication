@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AreaIdNotExists" xml:space="preserve">
+    <value>AreaId does not exists</value>
+  </data>
+  <data name="CoAuthorNumExceeded" xml:space="preserve">
+    <value>There can not be more than 4 CoAuthors per paper</value>
+  </data>
+  <data name="CoAuthorsNull" xml:space="preserve">
+    <value>CoAuthors is null or empty</value>
+  </data>
+  <data name="InvalidAddAreaUser" xml:space="preserve">
+    <value>Only chief editor may add areas</value>
+  </data>
+  <data name="InvalidAddIssueUser" xml:space="preserve">
+    <value>Only chief editor may add issues</value>
+  </data>
+  <data name="InvalidAreaEditor" xml:space="preserve">
+    <value>Only Area editor may check evaluated papers</value>
+  </data>
+  <data name="InvalidAreaName" xml:space="preserve">
+    <value>Area Name is invalid</value>
+  </data>
+  <data name="InvalidEvaluateEditor" xml:space="preserve">
+    <value>Only chief editor may evaluate papers</value>
+  </data>
+  <data name="InvalidMagazineName" xml:space="preserve">
+    <value>Magazine name may not be null nor empty</value>
+  </data>
+  <data name="IssueAlreadyExists" xml:space="preserve">
+    <value>Issue with this number already exists</value>
+  </data>
+  <data name="IssueIdNotExists" xml:space="preserve">
+    <value>Issue Id does not exist </value>
+  </data>
+  <data name="IssueNotExists" xml:space="preserve">
+    <value>Issue does not exists</value>
+  </data>
+  <data name="LoggedOutUser" xml:space="preserve">
+    <value>Operation only valid for Logged in Users</value>
+  </data>
+  <data name="LoggedUser" xml:space="preserve">
+    <value>Operation only valid for Non Logged (Unregistered) Users</value>
+  </data>
+  <data name="LoginAlreadyExists" xml:space="preserve">
+    <value>Login already exists</value>
+  </data>
+  <data name="MagazineNotExists" xml:space="preserve">
+    <value>There is not magazine in the system</value>
+  </data>
+  <data name="MoreThan4CoAuthorsProvided" xml:space="preserve">
+    <value>More than 4 CoAuthors in the paper</value>
+  </data>
+  <data name="NonChiefEditor" xml:space="preserve">
+    <value>User is not a chief editor</value>
+  </data>
+  <data name="NullAOI" xml:space="preserve">
+    <value>Areas of interest are null or empty</value>
+  </data>
+  <data name="NullArea" xml:space="preserve">
+    <value>Area is null or empty</value>
+  </data>
+  <data name="NullAreaId" xml:space="preserve">
+    <value>Area Id is null or empty</value>
+  </data>
+  <data name="NullAreaName" xml:space="preserve">
+    <value>Area name is null or empty</value>
+  </data>
+  <data name="NullAreas" xml:space="preserve">
+    <value>There does not exist any area</value>
+  </data>
+  <data name="NullComments" xml:space="preserve">
+    <value>Comments are null or empty</value>
+  </data>
+  <data name="NullDate" xml:space="preserve">
+    <value>Date is null or empty</value>
+  </data>
+  <data name="NullEmail" xml:space="preserve">
+    <value>Email is null or empty</value>
+  </data>
+  <data name="NullIssueNumber" xml:space="preserve">
+    <value>Assue number is null or empty</value>
+  </data>
+  <data name="NullLogin" xml:space="preserve">
+    <value>Login is null or empty</value>
+  </data>
+  <data name="NullPapers" xml:space="preserve">
+    <value>There are not any papers on this area</value>
+  </data>
+  <data name="NullPassword" xml:space="preserve">
+    <value>Password is null or empty</value>
+  </data>
+  <data name="NullSurname" xml:space="preserve">
+    <value>User surname is null or empty</value>
+  </data>
+  <data name="NullTitle" xml:space="preserve">
+    <value>Title is null or empty</value>
+  </data>
+  <data name="NullUploadDate" xml:space="preserve">
+    <value>The submission date is null</value>
+  </data>
+  <data name="NullUser" xml:space="preserve">
+    <value>User is null or empty</value>
+  </data>
+  <data name="NullUserId" xml:space="preserve">
+    <value>DNI is null</value>
+  </data>
+  <data name="NullValueTitle" xml:space="preserve">
+    <value>Please fill in the title </value>
+  </data>
+  <data name="PaperAlreadyExists" xml:space="preserve">
+    <value>Paper already exists in that area</value>
+  </data>
+  <data name="PaperAlreadyPublished" xml:space="preserve">
+    <value>Paper has been already published</value>
+  </data>
+  <data name="PaperIdNotExists" xml:space="preserve">
+    <value>Paper Id does not exist</value>
+  </data>
+  <data name="PaperNotExists" xml:space="preserve">
+    <value>Paper does not exist</value>
+  </data>
+  <data name="PasswordMismatch" xml:space="preserve">
+    <value>Password does not match this user</value>
+  </data>
+  <data name="SelectExistingArea" xml:space="preserve">
+    <value>Please select an area in the list</value>
+  </data>
+  <data name="SelectNameArea" xml:space="preserve">
+    <value>Please select a valid area</value>
+  </data>
+  <data name="UserIdAlreadyExists" xml:space="preserve">
+    <value>User Id already exists in this database</value>
+  </data>
+  <data name="UserNotEditor" xml:space="preserve">
+    <value>User is not an editor of any area</value>
+  </data>
+  <data name="UserNotExists" xml:space="preserve">
+    <value>User does not exist</value>
+  </data>
+  <data name="PaperNotInPublicationPending" xml:space="preserve">
+    <value>User does not exist</value>
+  </data>
+  <data name="NotValidDate" xml:space="preserve">
+    <value>Date not valid</value>
+  </data>
+  <data name="IssueIdExists" xml:space="preserve">
+    <value>Issue Id already exists</value>
+  </data>
+  <data name="IssueNumberInvalid" xml:space="preserve">
+    <value>Issue number is invalid, needs to be bigger or equal to 0</value>
+  </data>
+  <data name="IssuesNotExist" xml:space="preserve">
+    <value>There exists no issue</value>
+  </data>
+  <data name="PaperAlreadyEvaluated" xml:space="preserve">
+    <value>Paper has been already evaluated</value>
+  </data>
+  <data name="NullIssues" xml:space="preserve">
+    <value>There does not exist any issue</value>
+  </data>
+  <data name="IssueEmpty" xml:space="preserve">
+    <value>Issue must not be an empty one</value>
+  </data>
+  <data name="InvalidEmail" xml:space="preserve">
+    <value>Email does not have a @ or a .</value>
+  </data>
+</root>

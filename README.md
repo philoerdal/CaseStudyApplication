@@ -1,7 +1,7 @@
 # CaseStudyApplication
-Case study application of university magazine
+Case study application of university magazine 
 
-# Functionality of application: 
+# Application functionality: 
 This software engineering application is designed with a layered architecture, consisting of four layers: 
 data access, persistence, business logic, and presentation. 
 The data access layer is responsible for retrieving data from a database, while the persistence layer handles the storage and retrieval of objects in memory. 

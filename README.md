@@ -12,4 +12,9 @@ The editor in chief selects the articles to be published and creates a table of 
 Registered users can access the contents of an issue and submit comments on published articles, which the main author can respond to. 
 The system also generates alerts and notifications to keep editors and contributors informed of the publication process.
 
+# Run application
+(1) Initialize the GUI by running Program.cs
+(2) Log in as one of the registered users specified in C:\CaseStudyApplication\LabSolution\ClassLibrary\BusinessLogic\Services\MagazineISWService.cs
+(3) Available functionality will depend on user-role
+
 

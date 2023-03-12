@@ -13,8 +13,8 @@ Registered users can access the contents of an issue and submit comments on publ
 The system also generates alerts and notifications to keep editors and contributors informed of the publication process.
 
 # Run application
-(1) Initialize the GUI by running Program.cs
-(2) Log in as one of the registered users specified in C:\CaseStudyApplication\LabSolution\ClassLibrary\BusinessLogic\Services\MagazineISWService.cs
+(1) Initialize the GUI by running Program.cs <br /> 
+(2) Log in as one of the registered users specified in C:\CaseStudyApplication\LabSolution\ClassLibrary\BusinessLogic\Services\MagazineISWService.cs <br />
 (3) Available functionality will depend on user-role
 
 
